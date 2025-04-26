@@ -9,6 +9,7 @@ https://huggingface.co/aymie-oh/roberta-emotion-classification
 **Install dependencies:**
 - pip install pandas scikit-learn
 - pip install transformers[torch]
+- (This must be run as it enures the necessary dependencies for using PyTorch with the transformers library are compatible. Additionally it ensures that versions of PyTorch and any other related libraries (like accelerate) are present.)
 
 **To utilize a local GPU:**
 - pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128 (I use CUDA 12.8 but pytorch offers additional versions)
