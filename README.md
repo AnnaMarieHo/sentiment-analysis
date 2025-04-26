@@ -13,3 +13,8 @@ The dataset utllized for this project is a reannotated version of the GoEmotions
  title = {{GoEmotions: A Dataset of Fine-Grained Emotions}},
  year = {2020}
 }
+
+
+for Pytorch GPU setup please refer to the documentation
+
+https://pytorch.org/get-started/locally/
