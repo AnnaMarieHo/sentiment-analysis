@@ -15,6 +15,13 @@ The dataset utllized for this project is a reannotated version of the GoEmotions
 }
 
 
-for Pytorch GPU setup please refer to the documentation
 
+Install dependencies:
+pip install pandas scikit-learn
+pip install transformers[torch]
+
+To utilize a local GPU:
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128 (I use CUDA 12.8 but pytorch offers additional versions)
+
+for Pytorch GPU version setup please refer to the documentation
 https://pytorch.org/get-started/locally/
