@@ -12,7 +12,9 @@ https://huggingface.co/aymie-oh/roberta-emotion-classification
 - run `pip install -r requirements.txt` 
 
 **To utilize a local GPU please refer to the Pytorch documentation**
+
 https://pytorch.org/get-started/locally/
+
 **I use CUDA 12.8**
 - pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 
