@@ -18,7 +18,7 @@ https://pytorch.org/get-started/locally/
 **I use CUDA 12.8**
 - pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 
-Pytorch offers additional versions. You will be able to obtain an installation command for yout appropriate operating system and version in the Pytorch documentation. 
+Pytorch offers additional versions. You will be able to obtain an installation command for your appropriate operating system and version in the Pytorch documentation. 
 
 
 
