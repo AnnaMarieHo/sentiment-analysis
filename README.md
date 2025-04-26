@@ -7,6 +7,7 @@ https://huggingface.co/aymie-oh/roberta-emotion-classification
 
 
 **Install dependencies:**
+*This may take some time*
 - create a new venv (`python -m venv venv`)
 - run `.\venv\Scripts\activate`
 - run `pip install -r requirements.txt` 
