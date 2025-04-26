@@ -9,12 +9,11 @@ https://huggingface.co/aymie-oh/roberta-emotion-classification
 **Install dependencies:**
 - create a new venv (`python -m venv venv`)
 - run `.\venv\Scripts\activate`
-- run `pip install -r requirements.txt` once venv is activated
+- run `pip install -r requirements.txt` 
 
 **To utilize a local GPU please refer to the Pytorch documentation**
 https://pytorch.org/get-started/locally/
-
-I use CUDA 12.8
+**I use CUDA 12.8**
 - pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 
 Pytorch offers additional versions. You will be able to obtain an installation command for yout appropriate operating system and version in the Pytorch documentation. 
