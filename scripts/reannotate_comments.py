@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # Load dataset
-goemotions = pd.read_csv("goemotions_1.csv")
+goemotions = pd.read_csv("../all_intermediary_datasets/goemotions_1.csv")
 
 INSTRUCTION_TEMPLATE = """
 Perform multiclass sentiment analysis on the following comments.
