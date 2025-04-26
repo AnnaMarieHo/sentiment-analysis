@@ -7,15 +7,19 @@ https://huggingface.co/aymie-oh/roberta-emotion-classification
 
 
 **Install dependencies:**
-- pip install pandas scikit-learn
-- pip install transformers[torch]
-- (This must be run as it enures the necessary dependencies for using PyTorch with the transformers library are compatible. Additionally it ensures that versions of PyTorch and any other related libraries (like accelerate) are present.)
+- create a new venv (`python -m venv venv`)
+- run `.\venv\Scripts\activate`
+- run `pip install -r requirements.txt` once venv is activated
 
-**To utilize a local GPU:**
-- pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128 (I use CUDA 12.8 but pytorch offers additional versions)
-
-**for Pytorch GPU version setup please refer to the documentation**
+**To utilize a local GPU please refer to the Pytorch documentation**
 https://pytorch.org/get-started/locally/
+
+I use CUDA 12.8
+- pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+Pytorch offers additional versions. You will be able to obtain an installation command for yout appropriate operating system and version in the Pytorch documentation. 
+
+
 
 The dataset utllized for this project is a reannotated version of the GoEmotions dataset curated by Google
 
