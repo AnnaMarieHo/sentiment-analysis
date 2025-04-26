@@ -110,7 +110,7 @@ def extract_post_and_comments_cleaned(json_file_path):
     return post_df, comments_df
 
 # Usage
-json_file_path = "./reddit_json/reddit_data8.json"
+json_file_path = "./reddit_json/reddit_data7.json"
 post_df, comments_df = extract_post_and_comments_cleaned(json_file_path)
 
 
