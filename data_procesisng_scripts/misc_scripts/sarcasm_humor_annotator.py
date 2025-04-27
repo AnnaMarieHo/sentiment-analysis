@@ -206,7 +206,7 @@ def save_to_csv(results, filename="sarcasm_humor_annotations.csv"):
     print(f"Results saved to {filename}")
 
 if __name__ == "__main__":
-    # Example usage
+    # usage
     print("Sarcasm and Humor Annotation")
     print("--------------------------------")
     
